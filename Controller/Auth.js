@@ -97,7 +97,7 @@ let forgetmailer = async(name,email,token)=>{
          text:"please click the link for reset your password",
          html:
          `<p> Hi ${name} !
-            please click  <a href ="http://localhost:3000/reset-password/${token}"  target="_blank"   >here</a> to rest your password
+            please click  <a href ="https://64a4381ec67fb11f00f2f749--teal-muffin-11bd09.netlify.app/reset-password/${token}"  target="_blank"   >here</a> to rest your password
          `
      }
  
