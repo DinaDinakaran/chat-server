@@ -12,7 +12,7 @@ app.use(express.json())
 app.use("/api/auth",AuthRoute)
 app.use("/api/message",MessageRouter)
 connection();
-let port = process.env.PORT || 4000
+let port = process.env.PORT || 80
 
 const server = app.listen(port,()=>{
     console.log("Server runs at"+port)
